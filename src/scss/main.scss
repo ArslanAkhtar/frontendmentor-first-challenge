@@ -1,0 +1,36 @@
+/* Your styles goes here. */
+body {
+  margin: 0px;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7c9e2;
+}
+
+.card-wrapper {
+  max-width: 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  p {
+    color: #bababa;
+  }
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .card-wrapper {
+    max-width: 400px;
+  }
+}

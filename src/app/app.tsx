@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import QRCode from "./QRCode";
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="awesomereactapp" />
+    <div className="content-wrapper">
+      <QRCode />
     </div>
   );
 }
